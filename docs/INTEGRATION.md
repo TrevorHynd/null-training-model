@@ -1,7 +1,7 @@
 # INTEGRATION — null-training-model ↔ liminal-ai-training
 
 This repository's `null/` trainer is designed to interoperate with
-[`blairbrokeit/liminal-ai-training`](https://github.com/blairbrokeit/liminal-ai-training).
+[`trevorhynd/liminal-ai-training`](https://github.com/trevorhynd/liminal-ai-training).
 
 The two trainers solve different halves of the same problem:
 

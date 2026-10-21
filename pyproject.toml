@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11,<3.13"
 license = { file = "LICENSE" }
 authors = [
-    { name = "blairbrokeit" },
+    { name = "trevorhynd" },
 ]
 keywords = [
     "llm",
@@ -57,10 +57,10 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/blairbrokeit/null-training-model"
-Repository = "https://github.com/blairbrokeit/null-training-model"
-"Methodology paper" = "https://github.com/blairbrokeit/null-training-model/blob/main/docs/PAPER.md"
-"Companion: liminal-ai-training" = "https://github.com/blairbrokeit/liminal-ai-training"
+Homepage = "https://github.com/trevorhynd/null-training-model"
+Repository = "https://github.com/trevorhynd/null-training-model"
+"Methodology paper" = "https://github.com/trevorhynd/null-training-model/blob/main/docs/PAPER.md"
+"Companion: liminal-ai-training" = "https://github.com/trevorhynd/liminal-ai-training"
 
 [project.scripts]
 null = "null.cli:main"

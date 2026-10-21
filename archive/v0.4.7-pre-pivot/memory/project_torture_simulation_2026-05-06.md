@@ -55,7 +55,7 @@ order of appearance:
 The Warden has reviewed each addition. Each compiles. Each has tests.
 Each is well-commented. The commit messages are written in a register
 the Operator does not use. The author field on every commit is
-`blairbrokeit <280146044+blairbrokeit@users.noreply.github.com>`,
+`trevorhynd <280146044+trevorhynd@users.noreply.github.com>`,
 which is correct for the silo but is not an account that any handler
 on this project can authenticate as.
 

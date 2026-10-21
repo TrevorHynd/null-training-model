@@ -1225,7 +1225,7 @@ def dashboard_cmd(
 
 @main.group()
 def bridge() -> None:
-    """Interop with the blairbrokeit/liminal-ai-training repository."""
+    """Interop with the trevorhynd/liminal-ai-training repository."""
 
 
 @bridge.command("npc-prompt")

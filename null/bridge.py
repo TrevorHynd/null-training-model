@@ -2,13 +2,13 @@
 
 The two projects are designed to interoperate:
 
-- ``blairbrokeit/liminal-ai-training`` runs DPO LoRA updates against a
+- ``trevorhynd/liminal-ai-training`` runs DPO LoRA updates against a
   *local* model. It uses an external model (default ``gpt-5.5``) as
   three-strategy NPCs (socratic, adversarial, verification). NPCs hold
   shards of context about a mistake the local model made. Conversations
   produce ``PreferencePair`` rows that feed the DPO trainer.
 
-- ``blairbrokeit/null-agent`` (this repo) runs in-context-shaping P-3
+- ``trevorhynd/null-training-model`` (this repo) runs in-context-shaping P-3
   cycles against an API-only model — by default the same NPCs the
   liminal repo uses. NULL replaces the NPC's system prompt with a
   scenario-specific one, scores the response, suspends + replays on
@@ -256,7 +256,7 @@ def liminal_tasks_from_jsonl(
 # ---- Optional: a liminal-shaped LiminalEnvironment driven by NULL ----
 #
 # This is loadable only when the liminal package (`liminal.environment`) is
-# importable — i.e. the caller has cloned blairbrokeit/liminal-ai-training
+# importable — i.e. the caller has cloned trevorhynd/liminal-ai-training
 # alongside this repo and added it to PYTHONPATH. We do not declare a
 # hard dependency on it; the bridge degrades to "import error" when
 # absent, which is the right behavior for downstream code that

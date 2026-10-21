@@ -5,8 +5,8 @@ Thanks for your interest. Small project; PRs and issues welcome.
 ## Setup
 
 ```bash
-git clone https://github.com/blairbrokeit/null-agent.git
-cd null-agent
+git clone https://github.com/trevorhynd/null-training-model.git
+cd null-training-model
 pip install -e .[test]
 pytest
 ```

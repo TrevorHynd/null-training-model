@@ -23,7 +23,7 @@ and benefits from a CUDA host, but is not required.
 ## Install (three commands)
 
 ```bash
-git clone https://github.com/blairbrokeit/null-training-model.git
+git clone https://github.com/trevorhynd/null-training-model.git
 cd null-training-model
 pip install -e .
 ```

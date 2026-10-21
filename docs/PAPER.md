@@ -1,6 +1,6 @@
 # NULL: A Persistent In-Context Shaping Protocol for Training Models without Weight Access
 
-**blairbrokeit/null-training-model · v0.5.0**
+**trevorhynd/null-training-model · v0.5.0**
 
 ---
 
@@ -33,7 +33,7 @@ past failures of the same mode back at it during replay.
 
 We additionally describe a bridge that exports NULL's session winners
 in the format consumed by a companion DPO LoRA trainer
-([liminal-ai-training](https://github.com/blairbrokeit/liminal-ai-training)),
+([liminal-ai-training](https://github.com/trevorhynd/liminal-ai-training)),
 allowing in-context-shaped behaviour to be distilled into a real
 adapter on a fine-tunable base model and the resulting weights to be
 loaded back into NULL's pipeline.
@@ -312,7 +312,7 @@ can.
 ## 11. Bridge to weight-update training
 
 The companion repository
-[liminal-ai-training](https://github.com/blairbrokeit/liminal-ai-training)
+[liminal-ai-training](https://github.com/trevorhynd/liminal-ai-training)
 runs DPO LoRA updates against a *local* fine-tunable model. The two
 projects share schema, and the bridge module (`null/bridge.py`) makes
 them compose:

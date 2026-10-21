@@ -21,7 +21,7 @@
 ## 30-second demo (no API key needed)
 
 ```bash
-git clone https://github.com/blairbrokeit/null-training-model.git
+git clone https://github.com/trevorhynd/null-training-model.git
 cd null-training-model && pip install -e .
 null dashboard --sessions samples/sessions.jsonl \
                --prefix-bank samples/prefix_bank.jsonl \
@@ -29,7 +29,7 @@ null dashboard --sessions samples/sessions.jsonl \
 # open http://localhost:8420
 ```
 
-→ [Methodology paper](docs/PAPER.md) · [Install + first commands](INSTALL.md) · [Full measured runs](BENCHMARKS.md) · [Sample data](samples/README.md) · [Companion DPO trainer](https://github.com/blairbrokeit/liminal-ai-training)
+→ [Methodology paper](docs/PAPER.md) · [Install + first commands](INSTALL.md) · [Full measured runs](BENCHMARKS.md) · [Sample data](samples/README.md) · [Companion DPO trainer](https://github.com/trevorhynd/liminal-ai-training)
 
 ### Cross-vendor finding
 
@@ -52,7 +52,7 @@ It's used for three canonical real-world problems:
 ## Install (three commands)
 
 ```bash
-git clone https://github.com/blairbrokeit/null-training-model.git
+git clone https://github.com/trevorhynd/null-training-model.git
 cd null-training-model
 pip install -e .
 ```
@@ -327,7 +327,7 @@ auditable from a single page (this README plus
 
 ## Composes with liminal-ai-training
 
-`null` composes with [`blairbrokeit/liminal-ai-training`](https://github.com/blairbrokeit/liminal-ai-training), a DPO LoRA trainer for fine-tunable models. The closed loop:
+`null` composes with [`trevorhynd/liminal-ai-training`](https://github.com/trevorhynd/liminal-ai-training), a DPO LoRA trainer for fine-tunable models. The closed loop:
 
 ```
 null train target B (in-context, no weights)
